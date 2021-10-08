@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.postgres.fields import BigIntegerRangeField
 
+
 # Create your models here.
 class CallDetailRecord(models.Model):
     """ Основной класс первоначальных CDR """
